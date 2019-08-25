@@ -36,7 +36,13 @@ body {
 	margin-top: 500px;
 	position: absolute;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@keyframes pop-up {
+	50% {
+		margin-top: -100px;
+	}
 }
 
 .tenth-circle {
@@ -46,6 +52,8 @@ body {
 	border-radius: 50px;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+	animation: pop-up 5s linear infinite;
 }
 
 .ninth-circle {
