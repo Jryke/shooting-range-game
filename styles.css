@@ -27,6 +27,17 @@ body {
 	font-size: 30px;
 }
 
+.target-hider {
+	background: red;
+	height: 120px;
+	width: 750px;
+	margin-left: calc(50% - 375px);
+	margin-right: calc(50% - 375px);
+	margin-top: 500px;
+	position: absolute;
+	z-index: 10;
+}
+
 .target-holder {
 	background: brown;
 	height: 120px;
