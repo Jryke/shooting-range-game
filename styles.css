@@ -29,7 +29,7 @@ body {
 
 .target-holder {
 	background: brown;
-	height: 100px;
+	height: 120px;
 	width: 750px;
 	margin-left: calc(50% - 375px);
 	margin-right: calc(50% - 375px);
@@ -37,30 +37,34 @@ body {
 	position: absolute;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	z-index: 10;
 }
 
 @keyframes pop-up {
 	50% {
-		margin-top: -100px;
+		margin-top: -120px;
 	}
 }
 
 .tenth-circle {
 	background: blue;
-	height: 100px;
-	width: 100px;
-	border-radius: 50px;
+	height: 118px;
+	width: 118px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	z-index: 1;
 	animation: pop-up 5s linear infinite;
 }
 
 .ninth-circle {
 	background: red;
-	height: 90px;
-	width: 90px;
-	border-radius: 45px;
+	height: 106px;
+	width: 106px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -68,9 +72,10 @@ body {
 
 .eigth-circle {
 	background: black;
-	height: 80px;
-	width: 80px;
-	border-radius: 40px;
+	height: 94px;
+	width: 94px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -78,9 +83,10 @@ body {
 
 .seventh-circle {
 	background: red;
-	height: 70px;
-	width: 70px;
-	border-radius: 35px;
+	height: 82px;
+	width: 82px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -88,9 +94,10 @@ body {
 
 .sixth-circle {
 	background: blue;
-	height: 60px;
-	width: 60px;
-	border-radius: 30px;
+	height: 70px;
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -98,9 +105,10 @@ body {
 
 .fifth-circle {
 	background: red;
-	height: 50px;
-	width: 50px;
-	border-radius: 25px;
+	height: 58px;
+	width: 58px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -108,9 +116,10 @@ body {
 
 .fourth-circle {
 	background: black;
-	height: 40px;
-	width: 40px;
-	border-radius: 20px;
+	height: 46px;
+	width: 46px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -118,9 +127,10 @@ body {
 
 .third-circle {
 	background: red;
-	height: 30px;
-	width: 30px;
-	border-radius: 15px;
+	height: 34px;
+	width: 34px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -128,9 +138,10 @@ body {
 
 .second-circle {
 	background: blue;
-	height: 20px;
-	width: 20px;
-	border-radius: 10px;
+	height: 22px;
+	width: 22px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
@@ -140,7 +151,8 @@ body {
 	background: yellow;
 	height: 10px;
 	width: 10px;
-	border-radius: 5px;
+	border: 1px solid black;
+	border-radius: 50%;
 	margin-left: 5px;
 	margin-top: 5px;
 	position: absolute;
