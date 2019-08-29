@@ -52,8 +52,14 @@ body {
 }
 
 @keyframes pop-up {
-	50% {
+	10% {
 		margin-top: -120px;
+	}
+	40% {
+		margin-top: -120px;
+	}
+	50% {
+		margin-top: 0;
 	}
 }
 
@@ -67,7 +73,7 @@ body {
 	margin-right: auto;
 	position: relative;
 	z-index: 1;
-	animation: pop-up 5s linear infinite;
+	/* animation: pop-up 2s linear infinite; */
 }
 
 .ninth-circle {
